@@ -1,4 +1,4 @@
-﻿namespace Omnibus.CQRS
+﻿namespace Omnibus.CQRS.Command
 {
     // Marker interface
     public interface ICommand

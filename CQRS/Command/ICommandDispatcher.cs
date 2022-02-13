@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Omnibus.CQRS
+namespace Omnibus.CQRS.Command
 {
     public interface ICommandDispatcher
     {

@@ -4,13 +4,18 @@ using System;
 
 namespace Omnibus
 {
-    public class OmnibusServiceBuilder : IOmnibusServicesBuilder
+    public sealed class OmnibusServiceBuilder : IOmnibusServicesBuilder
     {
         private readonly IServiceCollection _services;
         IServiceCollection IOmnibusServicesBuilder.Services
             => _services;
 
         private bool _isBuilt = false;
+
+        public OmnibusServiceBuilder(IServiceCollection services)
+        {
+            _services = services;
+        }
 
         /// <summary>
         /// Create a new services container for the omnibus services registrations.
@@ -22,8 +27,9 @@ namespace Omnibus
                 throw new ServiceBuilderCanBeBuiltOnceException();
             }
             var provider = _services.BuildServiceProvider();
-
             _isBuilt = true;
+
+            return provider;
         }
     }
 }

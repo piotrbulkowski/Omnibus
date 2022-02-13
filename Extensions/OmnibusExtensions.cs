@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace Omnibus.Extensions
 {
     public static class OmnibusExtensions
     {
+        public static IOmnibusServicesBuilder AddOmnibus(this IServiceCollection services)
+        {
+            var builder = new OmnibusServiceBuilder(services);
+            return builder;
+        }
     }
 }
