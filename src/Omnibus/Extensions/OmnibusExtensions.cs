@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Omnibus.Extensions
 {
@@ -7,6 +8,7 @@ namespace Omnibus.Extensions
         public static IOmnibusServicesBuilder AddOmnibus(this IServiceCollection services)
         {
             var builder = new OmnibusServiceBuilder(services);
+
             return builder;
         }
     }
