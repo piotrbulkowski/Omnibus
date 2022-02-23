@@ -1,4 +1,4 @@
-﻿namespace Omnibus.Common
+﻿namespace Omnibus.Serialization
 {
     public sealed class AppSettings
     {
