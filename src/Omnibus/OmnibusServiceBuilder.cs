@@ -5,6 +5,9 @@ using System;
 
 namespace Omnibus
 {
+    /// <summary>
+    /// Main class responsible for Omnibus ServiceBuilder
+    /// </summary>
     public sealed class OmnibusServiceBuilder : IOmnibusServicesBuilder
     {
         private readonly IServiceCollection _services;

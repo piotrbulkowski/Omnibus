@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omnibus", "src\Omnibus\Omnibus.csproj", "{3327D7AE-F945-4543-88CB-DF4C2B62EC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnibus.Persistence", "src\Omnibus.Persistence\Omnibus.Persistence.csproj", "{D32D54A3-16AC-4EB6-8394-1DF84CF268AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omnibus.Persistence", "src\Omnibus.Persistence\Omnibus.Persistence.csproj", "{D32D54A3-16AC-4EB6-8394-1DF84CF268AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnibus.Stateless", "src\Omnibus.Stateless\Omnibus.Stateless.csproj", "{F8636778-51C0-4A3D-9C69-8FA4FBF72E93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D32D54A3-16AC-4EB6-8394-1DF84CF268AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32D54A3-16AC-4EB6-8394-1DF84CF268AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32D54A3-16AC-4EB6-8394-1DF84CF268AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8636778-51C0-4A3D-9C69-8FA4FBF72E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8636778-51C0-4A3D-9C69-8FA4FBF72E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8636778-51C0-4A3D-9C69-8FA4FBF72E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8636778-51C0-4A3D-9C69-8FA4FBF72E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,8 @@
 ﻿namespace Omnibus.CQRS.Query
 {
+    /// <summary>
+    /// Marker interface
+    /// </summary>
     public interface IQuery
     {
     }
