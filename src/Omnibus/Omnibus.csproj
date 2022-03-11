@@ -5,6 +5,7 @@
     <PackageProjectUrl>https://github.com/Madpixel6/Omnibus</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>A set of handy microservices abstractions to bootstrap your project</Description>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
